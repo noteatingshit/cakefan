@@ -138,10 +138,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
             label: "ревопиво",
             type: "submenu",
             items: [
-              {
 
-                items: [
-                  {
                     label: "risha1",
                     action: () => {
                       const channel = this.getChannel(korzina);
