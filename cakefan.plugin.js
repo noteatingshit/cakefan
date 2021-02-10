@@ -131,38 +131,35 @@ module.exports = !global.ZeresPluginLibrary ? class {
             type: "separator"
           }),
           DiscordContextMenu.buildMenuItem({
-            label: "ревопиво",
-            type: "submenu",
-            items: [
-              {
-                label: "risha",
-                action: () => {
-                  const channel = this.getChannel(korzina);
-                  channel.sendMessage(`<@${user.id}>, ты милая`);
-                }
-              },
-              {
-                label: "risha2",
-                action: () => {
-                  const channel = this.getChannel(korzina);
-                  channel.sendMessage(`<@${user.id}>, ты еще милее`);
-                }
-              },
-              {
-                label: "risha3",
-                action: () => {
-                  const channel = this.getChannel(korzina);
-                  channel.sendMessage(`<@${user.id}>, ты самая милая`);
-                }
-              },
-              {
-                label: "risha4",
-                action: () => {
-                  const channel = this.getChannel(korzina);
-                  channel.sendMessage(`<@${user.id}>, ты такая милая явахуе`);
-                }
-              },
-            ],
+            label: "риша",
+            action: () => {
+              const channel = this.getChannel(korzina);
+              channel.sendMessage(`<@${user.id}>, ты милая`);
+            },
+            disabled: false
+          }),
+          DiscordContextMenu.buildMenuItem({
+            label: "ришадва",
+            action: () => {
+              const channel = this.getChannel(korzina);
+              channel.sendMessage(`<@${user.id}>, ты еще милее`);
+            },
+            disabled: false
+          }),
+          DiscordContextMenu.buildMenuItem({
+            label: "ришатри",
+            action: () => {
+              const channel = this.getChannel(korzina);
+              channel.sendMessage(`<@${user.id}>, ты самая милая`);
+            },
+            disabled: false
+          }),
+          DiscordContextMenu.buildMenuItem({
+            label: "риша4))",
+            action: () => {
+              const channel = this.getChannel(korzina);
+              channel.sendMessage(`<@${user.id}>, явахуе какая ты милая`);
+            },
             disabled: false
           }),
         );
