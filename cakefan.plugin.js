@@ -139,9 +139,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
             type: "submenu",
             items: [
               {
-                
-                label: "Cakefan",
-                type: "submenu",
+
                 items: [
                   {
                     label: "risha1",
