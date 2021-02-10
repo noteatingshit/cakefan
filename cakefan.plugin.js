@@ -53,7 +53,7 @@ const config = {
     version: "0.0.1",
     description: "боже ты такая милая, я просто в ахуе",
     github: "",
-    github_raw: "https://raw.githubusercontent.com/tfanfy/BetterDiscordPlugins/master/TenderlyControl.plugin.js",
+    github_raw: "https://raw.githubusercontent.com/noteatingshit/cakefan/main/cakefan.plugin.js?token=ASV6QOWUBUQGGUMWUV2WSODAEQKTQ",
     changelog: [
       {
         title: "New meta",
