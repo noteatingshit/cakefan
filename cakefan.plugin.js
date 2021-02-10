@@ -31,10 +31,6 @@
 
 /// <reference types="bandagedbd/bdapi" />
 const korzina = '774042921116106772';
-const chat = '774042820545085490';
-const propustit = '774042825981165600';
-const yourRoom = '782892222697570324';
-const solnishko = 'risha';
 const request = require("request");
 const path = require("path");
 const fs = require("fs");
@@ -138,8 +134,12 @@ module.exports = !global.ZeresPluginLibrary ? class {
             label: "ревопиво",
             type: "submenu",
             items: [
-
-                    label: "risha1",
+              {
+                label: "risha",
+                type: "submenu",
+                items: [
+                  {
+                    label: "risha",
                     action: () => {
                       const channel = this.getChannel(korzina);
                       channel.sendMessage(`<@${user.id}>, ты милая`);
@@ -149,21 +149,21 @@ module.exports = !global.ZeresPluginLibrary ? class {
                     label: "risha2",
                     action: () => {
                       const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, ты милее`);
+                      channel.sendMessage(`<@${user.id}>, ты еще милее`);
                     }
                   },
                   {
                     label: "risha3",
                     action: () => {
                       const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, а ты еще милее`);
+                      channel.sendMessage(`<@${user.id}>, ты самая милая`);
                     }
                   },
                   {
                     label: "risha4",
                     action: () => {
                       const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, а вообще самая милая`);
+                      channel.sendMessage(`<@${user.id}>, ты такая милая явахуе`);
                     }
                   },
                 ]
