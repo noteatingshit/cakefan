@@ -4,7 +4,7 @@
  * @invite
  * @website
  * @source
- * @updateUrl https://raw.githubusercontent.com/tfanfy/BetterDiscordPlugins/master/TenderlyControl.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/noteatingshit/cakefan/main/cakefan.plugin.js?token=ASV6QOWUBUQGGUMWUV2WSODAEQKTQ
  */
 
 /*@cc_on
