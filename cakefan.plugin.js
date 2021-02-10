@@ -136,38 +136,32 @@ module.exports = !global.ZeresPluginLibrary ? class {
             items: [
               {
                 label: "risha",
-                type: "submenu",
-                items: [
-                  {
-                    label: "risha",
-                    action: () => {
-                      const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, ты милая`);
-                    }
-                  },
-                  {
-                    label: "risha2",
-                    action: () => {
-                      const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, ты еще милее`);
-                    }
-                  },
-                  {
-                    label: "risha3",
-                    action: () => {
-                      const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, ты самая милая`);
-                    }
-                  },
-                  {
-                    label: "risha4",
-                    action: () => {
-                      const channel = this.getChannel(korzina);
-                      channel.sendMessage(`<@${user.id}>, ты такая милая явахуе`);
-                    }
-                  },
-                ]
-              }
+                action: () => {
+                  const channel = this.getChannel(korzina);
+                  channel.sendMessage(`<@${user.id}>, ты милая`);
+                }
+              },
+              {
+                label: "risha2",
+                action: () => {
+                  const channel = this.getChannel(korzina);
+                  channel.sendMessage(`<@${user.id}>, ты еще милее`);
+                }
+              },
+              {
+                label: "risha3",
+                action: () => {
+                  const channel = this.getChannel(korzina);
+                  channel.sendMessage(`<@${user.id}>, ты самая милая`);
+                }
+              },
+              {
+                label: "risha4",
+                action: () => {
+                  const channel = this.getChannel(korzina);
+                  channel.sendMessage(`<@${user.id}>, ты такая милая явахуе`);
+                }
+              },
             ],
             disabled: false
           }),
